@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5D9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #A23018;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+#downloads {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#downloads h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.download-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-download.android {
+    background-color: #A23018;
+}
+
+.btn-download.android:hover {
+    background-color: #FFE498;
+    color: #A23018;
+    transform: translateY(-2px);
+}
+
+.btn-download.pc {
+    background-color: #A23018;
+}
+
+.btn-download.pc:hover {
+    background-color: #FFE498;
+    color: #A23018;
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #A23018;
+    color: #fff;
+    font-size: 14px;
+}
