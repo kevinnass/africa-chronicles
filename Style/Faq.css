@@ -146,6 +146,51 @@ h1 {
     background: #0056b3;
 }
 
+.btn-pdf {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-pdf:hover {
+    background-color: #005bb5;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-pdf:active {
+    background-color: #00408a;
+    transform: translateY(0);
+}
+
+#resources {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#resources h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#resources p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
 footer{
     margin-top: auto;
     /* border-top: 5px solid #6f6f6f; */
