@@ -76,10 +76,54 @@ header p {
     transform: translateY(-2px);
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #A23018;
+footer{
+    /* border-top: 5px solid #6f6f6f; */
+    background-color: #A23018;
     color: #fff;
-    font-size: 14px;
+    padding: 30px 100px;;
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid #FFE498;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+.hidden-link {
+    color: inherit;
+    text-decoration: none;
+}
+footer #contact{
+    color: #FFE498;
+}
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main {
+        margin: 10px;
+    }
+    .main img{
+        height:200px;
+        width: 100%;
+        margin-top: -0px;
+    }
+    .main {
+        display: block;
+    }
+    footer{
+        padding: 30px;
+    }
 }
